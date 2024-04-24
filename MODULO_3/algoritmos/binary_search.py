@@ -13,4 +13,4 @@ def binary_search(elemento,lista):
 
 lista = [i for i in range(1,1000) if i % 2 == 0]
 indice_encontrado = binary_search(678, lista)
-print(indice_encontrado)
+print(indice_encontrado) 
