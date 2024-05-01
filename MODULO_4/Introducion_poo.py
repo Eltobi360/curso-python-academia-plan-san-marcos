@@ -12,6 +12,8 @@ print(nombre.upper())
 #creando la primera clase
 
 class estudiante:
+    #atributo
+    nacionalidad ="Peruana"
     #contructor
     def __init__(self, nombre,apellido,edad,curso,documento_indentidad):
         self.nombre=nombre
